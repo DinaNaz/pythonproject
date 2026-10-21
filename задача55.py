@@ -11,7 +11,7 @@ for i in range(a, b + 1):
     elif i % 5 == 0:
         result.append("Buzz")
     else:
-        result.append(str(i))  # Числа нужно превратить в строку для вывода
+        result.append(str(i))  
 
-# Выводим все элементы списка через пробел
+
 print(*result)

@@ -5,7 +5,7 @@ for _ in range(n):
     line = input()
     if "кот" in line or "Кот" in line:
         found = True
-        break  # Дальше проверять строки нет смысла
+        break  
 
 if found:
     print("МЯУ")
